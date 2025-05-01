@@ -13,7 +13,7 @@ head, body {
 
 .bottom {
     background-color: #D9D9D9;
-    height: calc(9vh - 2px);
+    height: calc(10vh - 2px);
 }
 
 .left, .left1 {
