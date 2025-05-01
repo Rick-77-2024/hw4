@@ -47,7 +47,7 @@ head, body {
     display: table-cell;
     margin: 0;
     width: 32vw;
-    height: calc(29vh - 23px);
+    height: calc(29vh - 24px);
     color: #FFFFFF;
 }
 
