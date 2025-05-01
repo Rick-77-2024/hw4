@@ -11,12 +11,6 @@ head, body {
     height: calc(10vh - 50px);
 }
 
-.bottom-up, .bottom-down {
-    display: flex;
-    margin: 0;
-    width: 100vw;
-}
-
 .bottom-up {
     background-color: #D9D9D9;
     height: calc(9vh - 2px);
@@ -29,9 +23,9 @@ head, body {
 
 .left {
     display: flex;
-    background-color: #C0BDBD;
+    background-color: #A4A4A4;
     margin: 0;
-    width: 44vw;
+    width: 60vw;
     height: calc(80vh - 40px);
     flex-direction: row;
 }
@@ -40,24 +34,25 @@ head, body {
     display: table-cell;
     margin: 0;
     width: 40vw;
-    height: calc(40vh - 20px);
 }
 
 .center-top {
-    background-color: #827878;
+    background-color: #7F7A7A;
+    height: calc(45vh - 20px);
 }
 
 .center-bottom {
-    background-color: #B7ADAD;
+    background-color: #615050;
+    height: calc(35vh - 20px);
 }
 
 .center {
     display: flex;
     flex-direction: column;
-    /*width: 84vw;*/
 }
 
 .direction {
     display: flex;
-    width: 84vw;
+    margin: 0;
+    padding: 0;
 }
